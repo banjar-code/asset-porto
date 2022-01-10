@@ -365,35 +365,7 @@ $(document).ready(function() {
 		
 	}
 	
-		$('.js-tabs').each(function(){
-	    $('.content .tabcontent').hide();
-        $('.content .tabcontent:first').show();
-        $('.article .arc__item a').on('click', function () {
-            $('.article .arc__item a').removeClass('active');
-            $(this).addClass('active');
-            var currentTab = $(this).attr('href');
-            $('.content .tabcontent').hide();            
-            $(currentTab).show();
-            $portfolioMasonry.isotope ({
-                columnWidth: '.gallery-grid__item',
-                gutter: '.gutter-sizer',
-                isAnimated: true
-            });
-            return false;
-        });
-	});
-	
-	// Mobile close menu
-	windowWidth = $(window).width();
-    if ((windowWidth < screen)) {
-       $('.article .arc__item a').on('click', function () {
-          $('.hamburger').removeClass('is-active');
-		  $('.inner-menu').removeClass('is-active');
-		  $('body').removeClass('open-menu');
-	   });		   
-	} else {
 		
-	}
 	
     /*-----------------------------------------------------------------
       Masonry
