@@ -2654,4 +2654,24 @@ button:focus {
   overflow: auto;
 }
 
+.sidebar__user-name{font-size: 1.3rem !important;} #sosial-autor,#download-cv{margin-top: 0 !important; padding: 0 !important;} .contact-block .font-icon{font-size:1rem !important;} @media only screen and (max-width: 768px) {
+  .contact-form .btn {
+    margin-bottom: 15px;
+  }
+}.contact-form-button{background-color: #304CFD;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0 0.5rem 1rem rgb(48 76 253 / 15%), 0 0.125rem 0.25rem rgb(48 76 253 / 15%);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: inherit;
+    overflow: hidden;
+    padding: 0.9375rem 1.5rem;
+    position: relative;
+    transition: .4s ease-in-out;
+    white-space: nowrap;
+    z-index: 1; } .news-item__date{z-index: 3 !important; } 
+
 /*# sourceMappingURL=style.css.map */
